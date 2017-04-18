@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="cunhajoao.quiz.questoes"
+        android:orientation="vertical">
+
+        /*-------------------------------    QUESTOES 1    --------------------------------------*/
+        <TextView style="@style/questoes"
+            android:id="@+id/questao1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/questao1" />
+
+        <RadioButton
+            android:id="@+id/sim1"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="50dp"
+            android:text="@string/sim"
+            android:buttonTint="@color/green"/>
+
+        <RadioButton
+            android:id="@+id/nao1"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="50dp"
+            android:text="@string/nao"
+            android:buttonTint="@color/red"/>
+
+        <TextView
+            android:id="@+id/result1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+        /*-------------------------------    /QUESTOES 1    --------------------------------------*/
+        /*-------------------------------    QUESTOES 2    --------------------------------------*/
+            <TextView style="@style/questoes"
+                android:id="@+id/questao2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/questao2" />
+
+            <RadioButton
+                android:id="@+id/sim2"
+                android:layout_width="172dp"
+                android:layout_height="wrap_content"
+                android:maxWidth="50dp"
+                android:text="@string/sim"
+                android:buttonTint="@color/green"/>
+
+            <RadioButton
+                android:id="@+id/nao2"
+                android:layout_width="167dp"
+                android:layout_height="wrap_content"
+                android:maxWidth="50dp"
+                android:text="@string/nao"
+                android:buttonTint="@color/red"/>
+
+            <TextView
+                android:id="@+id/result2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="" />
+        /*-------------------------------    /QUESTOES 2    --------------------------------------*/
+        /*-------------------------------    QUESTOES 3    --------------------------------------*/
+        <TextView style="@style/questoes"
+            android:id="@+id/questao3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/questao3" />
+
+        <RadioButton
+            android:id="@+id/sim3"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="50dp"
+            android:text="@string/sim"
+            android:buttonTint="@color/green"/>
+
+        <RadioButton
+            android:id="@+id/nao3"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="50dp"
+            android:text="@string/nao"
+            android:buttonTint="@color/red"/>
+
+        <TextView
+            android:id="@+id/result3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+        /*-------------------------------    /QUESTOES 3    --------------------------------------*/
+        /*-------------------------------    QUESTOES 4    --------------------------------------*/
+        <TextView style="@style/questoes"
+            android:id="@+id/questao4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/questao4" />
+
+        <RadioButton
+            android:id="@+id/sim4"
+            android:layout_width="172dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="50dp"
+            android:text="@string/sim"
+            android:buttonTint="@color/green"/>
+
+        <RadioButton
+            android:id="@+id/nao4"
+            android:layout_width="167dp"
+            android:layout_height="wrap_content"
+            android:maxWidth="50dp"
+            android:text="@string/nao"
+            android:buttonTint="@color/red"/>
+
+        <TextView
+            android:id="@+id/result4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="" />
+        /*-------------------------------    /QUESTOES 4    --------------------------------------*/
+        /*-------------------------------    VERIFICAR      --------------------------------------*/
+        <Button
+            android:id="@+id/verifica"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="Verificar"
+            android:text="Verificar" />
+    </LinearLayout>
+</ScrollView>

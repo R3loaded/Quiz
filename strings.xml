@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Quiz</string>
+    <string name="textBotao">Responder Questões</string>
+    <string name="deseja">Para responder as questões, clique no botão abaixo.</string>
+    <string name="sim">Sim</string>
+    <string name="nao">Não</string>
+    <string name="questao1">O arquivo strings.xml armazena as palavras ou frases a serem utilizadas no projeto.</string>
+    <string name="questao2">Um toast é uma mensagem de alerta na parte inferior da tela do usuário.</string>
+    <string name="questao3">O comando placeholder do HTML, também funciona em Android.</string>
+    <string name="questao4">Manifest é o arquivo onde armazena as strings do app.</string>
+</resources>
